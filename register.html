@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://images.vexels.com/content/157235/preview/tasty-pizza-icon-32b289.png" type="image/x-icon">
-    <link rel="stylesheet" href="login.css">
-    <title>login - PizzaCarioca</title>
+    <link rel="stylesheet" href="register.css">
+    <title>Registro - PizzaCarioca</title>
 </head>
 <body>
 
@@ -27,30 +27,38 @@
     <div class="conteiner">
 
         <section class="left-section">
-            <img class="img-logo" src="img\PIZZACARIOCA.png" alt="Logo da pizzaria">
+
         </section>
 
         <section class="right-section" >
-
-            <p>Acessar Minha conta!</p>
 
             <form action="#" class="form">
 
                 <label for="email_id">Email</label>
                     <input type="email" name="email" id="email_id" placeholder="Insira seu email">
                 
+                <label for="tel_id">Telefone celular</label>
+                    <input type="number" name="password" id="tel_id" placeholder="Insira seu número">
+                
+                <label for="cep_id">CEP</label>
+                    <input type="text" name="cep" id="cep_id" placeholder="Insira seu CEP">
+
                 <label for="password_id">Senha</label>
-                    <input type="password" name="password" id="password_id" placeholder="Insira sua senha" >
+                    <input type="password" name="password" id="password_id" placeholder="Insira uma senha" >
 
-                <input type="submit" name="submit" id="submit_id" value="Entrar" >
+                <label for="confirm_password_id">Confirmar senha</label>
+                    <input type="password" name="confirm_password" id="confirm_password_id" placeholder="Insira sua senha novamente" >
 
-                <a href="#">Esqueci minha senha.</a>
+                
+
+                <input type="submit" name="submit" id="submit_id" value="Cadastrar" >
 
             </form>
+            
             <section class="bottom_section">
                 <button>Entrar com Google</button>
 
-                <p>Não tem uma conta?<a href="register.html"> crie uma!</a></p>
+                <p>já tem uma conta? entre<a href="login.html"> aqui!</a></p>
             </section>
         </section>
 
